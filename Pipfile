@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+scipy = "*"
+matplotlib = "*"
+jupyter = "*"
+notebook = "*"
+opencv-contrib-python = "*"
+
+[dev-packages]
+pylint = "*"
+flake8 = "*"
+mypy = "*"
+pytest = "*"
+
+[requires]
+python_version = "3.9"
